@@ -149,7 +149,6 @@ class clamav::params {
   $clamd_default_options = {
     'AlgorithmicDetection'           => true,
     'AllowAllMatchScan'              => true,
-    'AllowSupplementaryGroups'       => true,
     'ArchiveBlockEncrypted'          => false,
     'Bytecode'                       => true,
     'BytecodeSecurity'               => 'TrustSigned',
@@ -218,7 +217,6 @@ class clamav::params {
   }
 
   $freshclam_default_options = {
-    'AllowSupplementaryGroups' => false,
     'Bytecode'                 => true,
     'Checks'                   => '24',
     'CompressLocalDatabase'    => 'no',
