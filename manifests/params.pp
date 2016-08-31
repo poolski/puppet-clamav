@@ -234,7 +234,6 @@ class clamav::params {
     'LogTime'                  => true,
     'LogVerbose'               => false,
     'MaxAttempts'              => '5',
-    'PidFile'                  => $freshclam_default_pidfile,
     'ReceiveTimeout'           => '30',
     'ScriptedUpdates'          => 'yes',
     'TestDatabases'            => 'yes',
